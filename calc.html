@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+           border: 2px solid black;
+           border-radius: 20px;
+           background-color:white;
+        }
+        .calc{
+            border: 1px solid black;
+            border-radius: 20px;
+            background-color: rgb(175, 186, 162);
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+
+        }
+        .items{
+            border: 2px solid white;
+            padding: 25px;
+            border-radius: 20px;
+            text-align: center;
+            background-color: black;
+            color: blanchedalmond;
+
+        }
+        .items:hover{
+            background-color: orange;
+        }
+        .item1{
+            grid-column-start: 1;
+            grid-column-end: 6;
+            background-color: rgb(123, 208, 38);
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 45px;
+            text-align: end;
+            padding: 15px;
+            
+        }
+        h1{
+            color: blue;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border: 1px solid black;
+            width: 120px;
+            border-radius: 10px;
+            background-color: burlywood;
+            padding-left: 20px;
+        
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>CASIO</h1>
+    </div>
+    <div class="calc">
+
+        <div class="items item1">1234567890</div>
+        <div class="items">-</div>
+        <div class="items">-</div>
+        <div class="items">%</div>
+        <div class="items">Tax+</div>
+        <div class="items">Tax-</div>
+        <div class="items">MC</div>
+        <div class="items">MR</div>
+        <div class="items">M-</div>
+        <div class="items">M+</div>
+        <div class="items">/</div>
+        <div class="items">+/-</div>
+        <div class="items">7</div>
+        <div class="items">8</div>
+        <div class="items">9</div>
+        <div class="items">*</div>
+        <div class="items">C</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+        <div class="items">6</div>
+        <div class="items">-</div>
+        <div class="items">AC</div>
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">+</div>
+        <div class="items">0</div>
+        <div class="items">00</div>
+        <div class="items">.</div>
+        <div class="items">=</div>
+    </div>
+</body>
+</html>
